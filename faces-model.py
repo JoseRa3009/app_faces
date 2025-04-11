@@ -31,7 +31,7 @@ print(listPersons)
 
 for personName in listPersons:
     rostrosPath = os.path.join(data, personName)
-    for fileName in os.listdir(rostrosPath):
+    for fileName in os.listdir(fotosPath):
         img_path = os.path.join(rostrosPath, fileName)
         img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
         img = cv2.resize(img, (150, 150))
