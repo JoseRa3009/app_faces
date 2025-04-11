@@ -23,7 +23,7 @@ data = pathlib.Path(directory)
 labels = []
 images = []
 listPersons = ['Angel', 'Arkel', 'Guadalupe', 'Ingrid Lara', 'Jose Ramon']
-
+ 
 size = 64,64
 print('folders')
 #folders.remove("LICENSE.txt")
